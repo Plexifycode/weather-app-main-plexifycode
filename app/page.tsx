@@ -2,6 +2,6 @@
 
 export default function Home() {
   return (
-    <div>hello world!</div>
+    <div className="text-white font-dm-sans-italic">hello world!</div>
   );
 }

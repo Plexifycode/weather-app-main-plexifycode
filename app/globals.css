@@ -5,11 +5,32 @@
   --foreground: #171717;
 }
 
+@theme {
+  --font-dm-sans-regular: var(--font-dm-sans-regular);
+  --font-dm-sans-italic: var(--font-dm-sans-italic);
+  --font-bricolage-rotesque: var(--font-bricolage-grotesque)
+}
+
+@theme {
+  --color-*: initial;
+  --color-neutral-900: hsl(243, 96%, 9%);
+  --color-neutral-800: hsl(243, 27%, 20%);
+  --color-neutral-700: hsl(243, 23%, 24%);
+  --color-neutral-600: hsl(243, 23%, 30%);
+  --color-neutral-300: hsl(240, 6%, 70%);
+  --color-neutral-200: hsl(250, 6%, 84%),;
+  --color-neutral-0: hsl(0, 0%, 100%);
+
+  --color-orange-500: hsl(28, 100%, 52%);
+
+  --color-blue-700: hsl(248, 70%, 36%);
+  --color-blue-500: hsl(233, 67%, 56%);
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  
 }
 
 @media (prefers-color-scheme: dark) {

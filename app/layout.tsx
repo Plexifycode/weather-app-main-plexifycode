@@ -3,17 +3,17 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const dmSansRegular = localFont({
-  src: "./fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf",
+  src: "../public/fonts/DM_Sans/DMSans-VariableFont_opsz_wght.ttf",
   variable: "--font-dm-sans-regular"
 })
 
 const dmSansItalic = localFont({
-  src: "./fonts/DM_Sans/DMSans-Italic-VariableFont_opsz,wght.ttf",
+  src: "../public/fonts/DM_Sans/DMSans-Italic-VariableFont_opsz_wght.ttf",
   variable: "--font-dm-sans-italic"
 })
 
 const bricolageGrotesque = localFont({
-  src: "./fonts/Bricolage_Grotesque/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf",
+  src: "../public/fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz_wdth_wght.ttf",
   variable: "--font-bricolage-grotesque"
 })
 export const metadata: Metadata = {
